@@ -1,0 +1,15 @@
+# 真实/敏感构建产物 —— 永不入库
+inputs/
+reports/
+*.map
+*.elf
+*.ld.real
+*.lsl.real
+sanitize_map.json
+mapping.json
+
+# 常规
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
