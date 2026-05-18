@@ -28,6 +28,7 @@
 | [docs/02-domain-handbook.md](docs/02-domain-handbook.md) | **领域实战手册**：链接脚本 / 内存布局 / AUTOSAR MemMap / 启动拷贝表 / 多核与安全分区的 12 个具体 AI 应用场景，每个含可直接用的提示词 | 按场景查用 |
 | [docs/03-tooling-setup.md](docs/03-tooling-setup.md) | **工具与环境搭建**：Claude Code 用于嵌入式、本地/离线模型、MCP、把 map/objdump/readelf 喂给 AI 的自动化脚本 | 配置环境时 |
 | [docs/04-growth-roadmap.md](docs/04-growth-roadmap.md) | **能力成长路线**：四阶段从"AI 辅助理解"到"设计 AI 工作流的领域专家"，含每阶段度量指标 | 规划长期成长 |
+| [docs/05-general-ai-productivity.md](docs/05-general-ai-productivity.md) | **通用 AI 提效**：不限领域的工作日常（写码/调试/读懂/写作/规划/学习/自动化）的判断框架与用法 | 与领域手册并行，日常通用任务 |
 | [prompts/](prompts/) | **可复用提示词库**：经过本方向裁剪的模板，复制即用 | 日常高频 |
 
 ---
@@ -35,8 +36,9 @@
 ## 2. 如何使用本仓库
 
 1. **第一周**：通读 `01-methodology.md`，照着搭好 `03-tooling-setup.md` 的环境（重点是离线/脱敏链路）。
-2. **日常**：遇到具体任务 → 查 `02-domain-handbook.md` 对应场景 → 套 `prompts/` 模板 → **按方法论里的验证清单核对**。
-3. **每月**：用 `04-growth-roadmap.md` 的指标自评，调整重心。
+2. **日常（领域任务）**：查 `02-domain-handbook.md` 对应场景 → 套 `prompts/` 模板 → **按方法论里的验证清单核对**。
+3. **日常（通用任务）**：写码/调试/写作/规划/学习等不限领域的活，用 `05-general-ai-productivity.md` 的判断框架与用法，比领域档更激进提速。
+4. **每月**：用 `04-growth-roadmap.md` 的指标自评，调整重心。
 
 ---
 
